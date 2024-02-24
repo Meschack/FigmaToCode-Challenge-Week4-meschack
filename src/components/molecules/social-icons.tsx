@@ -14,7 +14,7 @@ export const SocialIcons = () => {
       {icons.map((icon, index) => (
         <div
           className={cn(
-            'border-2 border-black rounded relative h-[56px] w-[56px] inline-flex items-center justify-center',
+            'border-2 border-black rounded relative h-[56px] w-[56px] inline-flex items-center justify-center hover:bg-black',
             index === 0 && 'bg-black'
           )}
           key={/* icon.path */ index}

@@ -1,4 +1,6 @@
 import { AboutSection } from './about-section'
+import { ContactForm } from './contact-form'
+import { Footer } from './footer'
 import { Header } from './header'
 import { HeroSection } from './hero-section'
 import { MyExperience } from './my-experience'
@@ -14,4 +16,6 @@ export {
   AboutSection,
   MyProjects,
   MyTestimonial,
+  Footer,
+  ContactForm,
 }

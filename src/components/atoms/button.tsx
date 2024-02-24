@@ -5,7 +5,7 @@ interface ButtonProps extends ComponentPropsWithoutRef<'button'> {}
 
 export const Button = ({ className, children, ...rest }: ButtonProps) => {
   return (
-    <button className={cn('flex items-center p-2 rounded gap-3', className)}>
+    <button className={cn('flex items-center rounded gap-3', className)}>
       {children}
     </button>
   )

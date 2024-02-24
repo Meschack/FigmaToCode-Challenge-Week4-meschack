@@ -38,11 +38,11 @@ export const MyTestimonial = () => {
             <span className='font-normal'>My</span> Testimonial
           </h2>
 
-          <div className='grid grid-cols-3 gap-6 justify-between'>
+          <div className='grid grid-cols-3 gap-6 justify-between mt-10'>
             {review.map((review, index) => (
               <div
                 key={index}
-                className='rounded-md shadow-md min-w-[370px] flex  hover:bg-black cursor-pointer hover:text-white items-center flex-col gap-5 p-5'
+                className='rounded-lg shadow-md min-w-[370px] flex hover:bg-black cursor-pointer hover:text-white items-center flex-col gap-5 p-10'
               >
                 <Image
                   src={review.picture}

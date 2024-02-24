@@ -1,5 +1,6 @@
 import {
   AboutSection,
+  ContactForm,
   HeroSection,
   MyExperience,
   MyProjects,
@@ -16,6 +17,7 @@ export default function Home() {
       <AboutSection />
       <MyProjects />
       <MyTestimonial />
+      <ContactForm />
     </>
   )
 }

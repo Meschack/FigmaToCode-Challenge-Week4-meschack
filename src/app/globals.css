@@ -35,4 +35,13 @@
   h1 {
     @apply text-4xl;
   }
+
+  input,
+  textarea {
+    @apply border-[1.5px] border-black rounded py-4 px-6;
+  }
+
+  textarea {
+    @apply h-full max-h-[140px] resize-y;
+  }
 }
