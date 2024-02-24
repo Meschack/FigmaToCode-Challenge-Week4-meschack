@@ -35,7 +35,7 @@ export const MyExperience = () => {
         </div>
         <div className='flex flex-col gap-8 max-w-[1216px] w-full mx-auto *:border *:rounded *:max-w-[1168px] *:py-[40px] *:px-[24px] *:border-zinc-500 *:flex *:flex-col *:gap-[28px] *:mx-auto'>
           {experiences.map((experience) => (
-            <div className='even:bg-zinc-800'>
+            <div key={experience.title} className='even:bg-zinc-800'>
               <div className='flex items-center justify-between'>
                 <div className='flex gap-5 items-center'>
                   <Image

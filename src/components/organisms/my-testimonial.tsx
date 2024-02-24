@@ -39,8 +39,8 @@ export const MyTestimonial = () => {
           </h2>
 
           <div className='grid grid-cols-3 gap-6 justify-between'>
-            {review.map((review) => (
-              <div className='rounded-md shadow-md min-w-[370px] flex items-center flex-col gap-5 p-5'>
+            {review.map((review, index) => (
+              <div key={index} className='rounded-md shadow-md min-w-[370px] flex items-center flex-col gap-5 p-5'>
                 <Image
                   src={review.picture}
                   className='rounded-full'

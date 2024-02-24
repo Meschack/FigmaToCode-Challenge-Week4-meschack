@@ -51,8 +51,11 @@ export const MySkills = () => {
         My <strong>Skills</strong>
       </h2>
       <div className='grid grid-cols-5 justify-between gap-x-10 py-[20px] w-full max-w-[1216px] gap-y-[40px]'>
-        {skills.map((skill) => (
-          <div className='rounded border-2 aspect-square border-black flex flex-col justify-evenly items-center'>
+        {skills.map((skill, index) => (
+          <div
+            key={index}
+            className='rounded border-2 aspect-square border-black flex flex-col justify-evenly items-center'
+          >
             <Image
               width={56}
               height={56}

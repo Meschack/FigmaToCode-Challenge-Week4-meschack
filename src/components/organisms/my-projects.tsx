@@ -36,7 +36,10 @@ export const MyProjects = () => {
 
         <div className='w-full mx-auto max-w-[1216px]'>
           {projects.map((project, index) => (
-            <div className='flex items-center justify-between even:flex-row-reverse'>
+            <div
+              key={project.title}
+              className='flex items-center justify-between even:flex-row-reverse'
+            >
               <div>
                 <Image
                   src={project.image}
